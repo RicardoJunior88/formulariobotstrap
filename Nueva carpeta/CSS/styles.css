@@ -1,0 +1,32 @@
+body{
+    background-image: url(47f8ee4fee01d35b4498b8a975f846da.jpg);
+    background-size: 80em 80em;
+    margin-top: 5em;
+}
+h3,p{
+    color:#fff;
+}
+p{
+    font-size: 0.8em;
+}
+.cont,.lor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter{
+    color: rgb(169, 167, 167);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    
+    
+}
+.candado{
+    width: 3em;
+    justify-self: flex-end;
+    position: relative;
+    left: 5em;
+}
+

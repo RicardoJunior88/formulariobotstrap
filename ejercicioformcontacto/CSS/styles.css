@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    color: blue;
+}
+h5{
+    color: blue;
+}
+.total{
+    width: 50% !important;
+    display: flex;
+    justify-content: center;
+    border-bottom:solid 0.1em #ccc;
+    margin-top: 3em;
+    padding-top: 0.4em;
+}
+.logo{
+    width: 1.5em;
+    position: relative;
+    left: 4em;
+}
+    .container{
+    background-color: #eee;
+    width: 40em !important;
+}
+
+    
+    
+
+    

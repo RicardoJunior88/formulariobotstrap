@@ -1,0 +1,74 @@
+body{
+    background-image: url(47f8ee4fee01d35b4498b8a975f846da.jpg);
+    background-size: 80em 80em;
+    margin-top: 2em;
+}
+h3,p{
+    color:#fff;
+}
+p{
+    font-size: 0.8em;
+}
+.cont,.lor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter{
+    color: rgb(169, 167, 167);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    
+    
+    
+}
+.candado{
+    width: 3em;
+    justify-self: flex-end;
+    position: relative;
+    left: 5em;
+}
+.barras{
+   
+        color: rgb(169, 167, 167);
+        background-color: rgb(205, 191, 191);
+        display: flex;
+        justify-content: center;
+        width: 30em;
+                
+    }
+    .form-control{
+        width: 28em;
+        margin:auto ;
+    }
+.boton1{
+    width: 28em;
+    margin: 0;
+    background-color: rgb(65, 193, 159);
+    border-color: rgb(35, 164, 130);
+}
+.logindiv{
+    position: absolute;
+    left: 48%;
+}
+.logoboton{
+    width: 1.3em;
+    position: relative;
+    bottom: 0.2em;
+}
+.btn-dark{
+    border-color: #fff;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.facebook{
+    width: 8em;
+}
+.google{
+    width: 9em;
+}

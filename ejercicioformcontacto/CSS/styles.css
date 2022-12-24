@@ -6,20 +6,25 @@ h5{
     color: blue;
 }
 .total{
-    
+    background-color: #eee;
     /* display: flex; */
     /* justify-content: center; */
-    border-bottom:solid 0.1em #ccc;
     margin-top: 3em;
     padding-top: 0.4em;
+}
+.principal{
+    margin-top: 3em;
+}
+.formulario{
+    border-top: solid 0.1em #ccc;
 }
 .logo{
     width: 1.5em;
     
 }
-    .container{
+    .disp{
     background-color: #eee;
-    /* width: 40em !important; */
+    width: 40em !important;
 }
 
     

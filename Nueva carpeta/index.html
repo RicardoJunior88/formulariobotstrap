@@ -41,11 +41,11 @@
 <div class="container-fluid">
     <div class="row rounded-bottom bg-primary">
         <!-- parte izquierda barra navegación -->
-        <div class="col-8  ">
+        <div class="col-7  ">
             <ul class="nav py-0">
                 <!-- marca -->
                 <li class="nav-item py-0 border-bottom-0 border-end border-dark nav-tabs">
-                    <a href="" class=" ps-1 nav-link border-0"><h6>UTHEMES</h6></a>
+                    <a href="" class=" ps-1 nav-link border-0 disabled"><h6>UTHEMES</h6></a>
                 </li>
                 <!-- hamburguesa -->
                 <li class="nav-item border-end border-bottom-0 border-end border-dark nav-tabs">
@@ -53,15 +53,15 @@
                 </li>
                 <!-- home -->
                 <li class="nav-item border-bottom-0 border-end border-dark nav-tabs bg-white">
-                    <a href="" class="nav-link border-0 active px-3"><img class="icono3" src="/Nueva carpeta/CSS/iconos/casa.png " alt=""> Home</a>
+                    <a href="" class="nav-link d-flex align-items-center  border-0 active px-3"><img class="icono3 me-1" src="/Nueva carpeta/CSS/iconos/casa.png " alt=""> Home</a>
                 </li>
                   <!-- about -->
                 <li class="nav-item border-bottom-0  border-end border-dark nav-tabs">
-                    <a href="" class="nav-link border-0"><img class="icono3" src="/Nueva carpeta/CSS/iconos/sobre.png" alt=""> About</a>
+                    <a href="" class="nav-link d-flex align-items-center border-0"><img class="icono3 me-1" src="/Nueva carpeta/CSS/iconos/sobre.png" alt=""> About</a>
                 </li>
                 <!-- services -->
                 <li class="nav-item border-bottom-0 border-end border-dark nav-tabs ">
-                    <a href="" class="nav-link border-0"><img class="icono4" src="/Nueva carpeta/CSS/iconos/engranaje.png" alt=""> Services</a>
+                    <a href="" class="nav-link border-0 d-flex align-items-center"><img class="icono4 me-1" src="/Nueva carpeta/CSS/iconos/engranaje.png" alt=""> Services</a>
                 </li>
                 <!-- portfolio -->
                 <li class="nav-item border-bottom-0 border-end border-dark nav-tabs ">
@@ -80,8 +80,24 @@
 
         </div>
         <!-- parte derecha barra navegación -->
-        <div class="col-4">
-
+        <div class="col-5">
+           <div class="container-fluid"> 
+                <div class="row">
+                    <div class="col-6">  
+                        <div class="input-group col-1 input-group-sm d-flex mt-1">
+                            <input type="text" class="form-control" placeholder="Búsqueda" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-light bg-white" type="button" id="button-addon2"><img class="icono2" src="/Nueva carpeta/CSS/iconos/lupa.png" alt=""></button>
+                        </div>
+                    </div>    
+                    <div class="col-6 d-flex justify-content-around align-items-center">
+                        <div><img class="icono5" src="/Nueva carpeta/CSS/iconos/facebook.png" alt=""></div>
+                        <div><img class="icono5" src="/Nueva carpeta/CSS/iconos/twitter.png" alt=""></div>
+                        <div><img class="icono5" src="/Nueva carpeta/CSS/iconos/google.png" alt=""></div>
+                        <div><img class="icono5" src="/Nueva carpeta/CSS/iconos/youtube.png" alt=""></div>
+                        <div><img class="icono5" src="/Nueva carpeta/CSS/iconos/user.png" alt=""></div>
+                    </div>
+                </div>
+           </div> 
         </div>
     </div>
 </div>

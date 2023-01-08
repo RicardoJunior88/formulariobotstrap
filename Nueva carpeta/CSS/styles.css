@@ -17,9 +17,16 @@ body{
 }
 .icono3{
     width: 1em;
-    position: relative;
-    top: -0.2em;
+    height: 1.3em;
+    /* position: relative; */
+    /* top: -0.2em; */
 }
 .icono4{
     width: 1.4em;
+}
+h6{
+    color: #fff;
+}
+.icono5{
+    width: 2.1em;
 }

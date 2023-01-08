@@ -1,0 +1,25 @@
+
+body{
+    background-color: #ddd;
+    margin: 0em;
+    padding-inline: 2em;
+    font-size: small;
+}
+.icono{
+    width: 0.8em;
+    height: 0.8em;
+}
+.nav-link{
+    color: white;
+}
+.icono2{
+    width: 1.7em;
+}
+.icono3{
+    width: 1em;
+    position: relative;
+    top: -0.2em;
+}
+.icono4{
+    width: 1.4em;
+}
